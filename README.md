@@ -92,6 +92,27 @@ how much of it nothing was pointing at.**
 
 ---
 
+## Finite-universe Yang–Mills (HEB-C): where the results live (2026-10-25)
+
+So the gap ladder, its matrix-jump and timing tricks, and the evolution
+measurements are never unreferenced:
+
+- **Status of record:** [the Yang–Mills repo README](https://github.com/JesseBrown1980/Finite-universe-Yang-mills-existence-and-mass-gap-using-HEB-C#coupling-gap-certificates-status-at-a-glance-2026-10-25)
+  — Certified / In progress / Not established. Main commit [`2937694`](https://github.com/JesseBrown1980/Finite-universe-Yang-mills-existence-and-mass-gap-using-HEB-C/commit/29376948d7958d49517433830e8622867b0d4e98).
+- **Ladder code + ledger** (297 integer interval-Sturm certificates, rungs r = 0…15):
+  [`integer-sturm-ladder` at `d06014a`](https://github.com/JesseBrown1980/Finite-universe-Yang-mills-existence-and-mass-gap-using-HEB-C/tree/d06014a/independent/ladder).
+- **Euclidean-evolution test ground** (HTTP-0 page, measured gaps at r = 0, 1, 2, 3, 5, 6 all inside
+  the certified brackets; measurement, not certificate):
+  [`docs/EVOLUTION_TESTGROUND.md`](https://github.com/JesseBrown1980/Finite-universe-Yang-mills-existence-and-mass-gap-using-HEB-C/blob/main/docs/EVOLUTION_TESTGROUND.md).
+- **Tricks and timings** (scaling, monotone cells, Z₂×Z₂ sectors ≈150 s → ≈6.9 s per certificate,
+  predict-then-verify, SHA-keyed cache, fail-closed thresholds): [`docs/LADDER_METHOD.md`](https://github.com/JesseBrown1980/Finite-universe-Yang-mills-existence-and-mass-gap-using-HEB-C/blob/main/docs/LADDER_METHOD.md),
+  mirrored as HBP receipts in [asolaria-hbi-hbp](https://github.com/JesseBrown1980/asolaria-hbi-hbp/tree/b034fde/field-receipts/hebc-yang-mills).
+
+Scope: one 2×2 torus. Not established: a volume-uniform gap, continuum
+Yang–Mills, the Clay problem.
+
+---
+
 **Jesse Daniel Brown (OP-JESSE).**
 
 *Not lost like Tesla.*
